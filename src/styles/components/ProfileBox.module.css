@@ -1,0 +1,59 @@
+.profileBoxContainer {
+  width: 30rem;
+  height: 10rem;
+  /* background-color: #cacace; */
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.profileBoxContainer div:first-child {
+  display: flex;
+}
+
+.profileBoxContainer div:first-child div {
+  height: 100%;
+  margin-left: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileBoxContainer > div img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: .3rem;
+}
+
+.profileBoxContainer h1 {
+  color: var(--title);
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 1.4rem;
+}
+
+.profileBoxContainer div span {
+  color: var(--subTitle);
+}
+
+.profileBoxContainer p {
+  color: var(--subTitle);
+  font-size: 1rem;
+}
+
+.profileBoxContainer > div:last-child {
+  flex: 1;
+  height: 80%;
+
+  display: flex;
+  align-items: center;
+
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.profileBoxContainer > div:last-child p + p {
+  margin-left: 1rem;
+} 
